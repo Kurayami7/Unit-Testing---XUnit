@@ -25,13 +25,13 @@ Shown below are the most popular attributes/annotations used in the xUnit framew
 ### DESCRIPTION
 [Fact]	Marks a test method, i.e., actual test in a class <br>
 Assert.Throws Record Exception	Verify the raise and raise assert, irrespective of the place in the code where the problem occurs. <br>
-Constructor	This is not an attribute but is an ideal replacement for the [SetUp] attribute. The constructor should be parameter-less.
-IDisposable.Dispose	This is not an attribute but is an ideal replacement for the [TearDown] attribute. This is where the code for performing necessary cleanup and de-initialization is included.
-The decision to do away with [TearDown] was made as the investors of xUnit felt that a lot of unnecessary code was run before every single test execution.
+Constructor	This is not an attribute but is an ideal replacement for the [SetUp] attribute. The constructor should be parameter-less. <br>
+IDisposable.Dispose	This is not an attribute but is an ideal replacement for the [TearDown] attribute. This is where the code for performing necessary cleanup and de-initialization is included. <br>
+The decision to do away with [TearDown] was made as the investors of xUnit felt that a lot of unnecessary code was run before every single test execution. <br>
 
-[Trait]	Used to set arbitrary meta-data on a test
-[Theory]	This attribute is used when data-driven tests have to be executed. In such cases, [Theory] has to be used instead of [Fact] attribute
-[InlineData]	This attribute is used along with the [Theory] attribute to supply a subset of data against which parameterized tests will be executed.
-[ClassData]	This attribute is used when the parameters being passed to the [Theory] tests are not constants.
-[Theory] [ClassData(typeof(some-data))]
-[MemberData]	This attribute can be used to fetch data for [Theory] from a static method. The most common approach is to load the data from the property of a test class, i.e., using IEnumerable&lt: object[] >
+[Trait]	Used to set arbitrary meta-data on a test <br>
+[Theory]	This attribute is used when data-driven tests have to be executed. In such cases, [Theory] has to be used instead of [Fact] attribute <br>
+[InlineData]	This attribute is used along with the [Theory] attribute to supply a subset of data against which parameterized tests will be executed. <br>
+[ClassData]	This attribute is used when the parameters being passed to the [Theory] tests are not constants. <br>
+[Theory] [ClassData(typeof(some-data))] <br>
+[MemberData]	This attribute can be used to fetch data for [Theory] from a static method. The most common approach is to load the data from the property of a test class, i.e., using IEnumerable&lt: object[] > <br>
