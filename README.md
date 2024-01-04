@@ -35,3 +35,21 @@ The decision to do away with [TearDown] was made as the investors of xUnit felt 
 [ClassData]	This attribute is used when the parameters being passed to the [Theory] tests are not constants. <br>
 [Theory] [ClassData(typeof(some-data))] <br>
 [MemberData]	This attribute can be used to fetch data for [Theory] from a static method. The most common approach is to load the data from the property of a test class, i.e., using IEnumerable&lt: object[] > <br>
+
+
+## Quick Revision/Introduction to Testing:
+There are ﻿4 main types of testing in Software Development:
+ 
+### 1. Unit Testing: Testing the smallest testable section of code (methods). Developers 
+test them on their own.
+ 
+### ﻿2. Integration Testing: This is where testers/QA/QC comes in. They test multiple 
+functionalities as a whole when they come together.
+﻿
+### 3. System Testing: This is where testers/QA/QC test the entire system from start to end.
+﻿
+### 4. User Acceptance Testing: There are 2 parts to this type of testing. It always
+relies on the end-user to test functionality. 
+a. The first type is alpha testing, the second is beta testing. Alpha is when testers 
+are controlled and selected. 
+b. Beta is when it's open to public testing.
