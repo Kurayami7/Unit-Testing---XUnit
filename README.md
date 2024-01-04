@@ -53,3 +53,8 @@ relies on the end-user to test functionality.
 a. The first type is alpha testing, the second is beta testing. Alpha is when testers 
 are controlled and selected. 
 b. Beta is when it's open to public testing.
+
+## Useful links to get started:
+https://xunit.net/docs/getting-started/netfx/visual-studio
+<br>
+https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
