@@ -24,7 +24,7 @@ Shown below are the most popular attributes/annotations used in the xUnit framew
 ### ANNOTATION
 ### DESCRIPTION
 [Fact]	Marks a test method, i.e., actual test in a class <br>
-Assert.Throws Record Exception	Verify the raise and raise assert, irrespective of the place in the code where the problem occurs.
+Assert.Throws Record Exception	Verify the raise and raise assert, irrespective of the place in the code where the problem occurs. <br>
 Constructor	This is not an attribute but is an ideal replacement for the [SetUp] attribute. The constructor should be parameter-less.
 IDisposable.Dispose	This is not an attribute but is an ideal replacement for the [TearDown] attribute. This is where the code for performing necessary cleanup and de-initialization is included.
 The decision to do away with [TearDown] was made as the investors of xUnit felt that a lot of unnecessary code was run before every single test execution.
